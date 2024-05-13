@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = "http://localhost:5000"
+const baseURL = "https://todo-manager-be.onrender.com"
 
 const getAlldata = async (setTodo) => {
    await axios
